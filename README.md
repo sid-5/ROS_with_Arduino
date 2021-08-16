@@ -3,8 +3,8 @@
 
 # Step 1: Creating URDF files
 
-Start by installing the fusion2urdf plugin for Fusion 360 for converting your fusion design to URDF
-link to plugin: https://github.com/syuntoku14/fusion2urdf
+* Start by installing the fusion2urdf plugin for Fusion 360 for converting your fusion design to URDF
+*link to plugin: https://github.com/syuntoku14/fusion2urdf
 tutorial to install plugin: https://www.youtube.com/watch?v=TitHYg-5_j8
 Next start desiging your bot in Fusion 360
 Tutorial for simple differential bot design and URDF conversion: https://youtu.be/cQh0gNfb6ro
