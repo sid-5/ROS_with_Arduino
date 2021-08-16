@@ -6,12 +6,12 @@
 * Start by installing the fusion2urdf plugin for Fusion 360 for converting your fusion design to URDF
 * *link to plugin: https://github.com/syuntoku14/fusion2urdf*
 * tutorial to install plugin: https://www.youtube.com/watch?v=TitHYg-5_j8
-* Next start desiging your bot in Fusion 360
+* Next start designing your bot in Fusion 360
 * Tutorial for simple differential bot design and URDF conversion: https://youtu.be/cQh0gNfb6ro
 * There are some steps missed in this tutorial due to which we require corrections in URDF file(watch this https://youtu.be/FYF1L440tdY else follow the following steps):
 * following are the corrections required:
 * Open myrobot.xacro file and navigate to REV1 joint, there replace  <axis xyz="0.0 -1.0 0.0"/>  with  <axis xyz="0.0 1.0 0.0"/>
-* Now open gazebo.lauch file and under "right_wheel" and "left_wheel" referenve change friction values to 150, set updateRate to 100, leftJoint to Rev2, rightJoint * to Rev1, wheel seperation to 0.2, wheelDiameter to 0.1 and robotBaseFrame to base_link
+* Now open gazebo.lauch file and under "right_wheel" and "left_wheel" reference change friction values to 150, set updateRate to 100, leftJoint to Rev2, rightJoint * to Rev1, wheel separation to 0.2, wheelDiameter to 0.1 and robotBaseFrame to base_link
 
 #### you can instead download the URDF files directly from the repo
 
@@ -28,7 +28,7 @@
 
 ## Step 3: Arduino Integration
 
-* Install rosserial_python libary
+* Install rosserial_python library
 * Upload code to arduino
 * Connect the HC-05 accordingly:
 * ![image](https://user-images.githubusercontent.com/70048742/129587227-9842d356-7151-44ff-be08-7ff30fffed3f.png)
