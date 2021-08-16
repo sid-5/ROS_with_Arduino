@@ -1,5 +1,5 @@
 # ROS with Arduino
-
+This project uses a differential drive bot designed in Fusion 360 and simulates it in gazebo simulator. An Arduino is used along with HC-05 to control this bot via an app using bluetooth
 
 ## Step 1: Creating URDF files
 
