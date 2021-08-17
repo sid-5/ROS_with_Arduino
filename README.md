@@ -37,5 +37,5 @@ This project uses a differential drive bot designed in Fusion 360 and simulates 
 * Run command   rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600   to start communication between ROS and Arduino(change the port number according your port)
 * Use to mobile app to control the bot in gazebo
 
-### Controlling Turtlesim
+# Controlling Turtlesim
 * This can be easily done by uploading the Arduino sketch and running the turtlesim node
