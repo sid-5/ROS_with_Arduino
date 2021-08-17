@@ -38,4 +38,4 @@ This project uses a differential drive bot designed in Fusion 360 and simulates 
 * Use to mobile app to control the bot in gazebo
 
 ### Controlling Turtlesim
-* This can be easily done by uploading the Arduino sketch and running the turtlesiim node
+* This can be easily done by uploading the Arduino sketch and running the turtlesim node
